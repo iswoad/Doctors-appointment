@@ -20,7 +20,7 @@ const SideBar = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link to="/dashboard/allPatients" className="text-white">
+                    <Link to="/allPatients" className="text-white">
                         <FontAwesomeIcon icon={faUsers} /> <span>Patients</span>
                     </Link>
                 </li>
@@ -30,7 +30,7 @@ const SideBar = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link to="/dashboard/addDoctors" className="text-white">
+                    <Link to="/addDoctors" className="text-white">
                         <FontAwesomeIcon icon={faUserPlus} /> <span>Add Doctor</span>
                     </Link>
                 </li>

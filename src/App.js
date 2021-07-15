@@ -27,10 +27,10 @@ function App() {
         <Route path = '/dashboard'>
           <DashBoard></DashBoard>
         </Route>
-        <Route path="/dashboard/allPatients">
+        <Route path="/allPatients">
             <AllPatients></AllPatients>
           </Route>
-          <Route path="/dashboard/addDoctors">
+          <Route path="/addDoctors">
             <AddDoctor></AddDoctor>
           </Route>
       </Switch>
